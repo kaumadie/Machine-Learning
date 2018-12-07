@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from apyori import apriori
 
-dataset = pd.read_csv('GroceryStoreDataSet.csv', header=None, skiprows=1)
+dataset = pd.read_csv('Data/GroceryStoreDataSet.csv', header=None, skiprows=1)
 print(dataset)
 
 transactions = []
