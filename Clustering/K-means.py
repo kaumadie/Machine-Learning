@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.cluster import KMeans
 
 # Importing the dataset
-dataset = pd.read_csv('Mall_Customers.csv')
+dataset = pd.read_csv('Data/Mall_Customers.csv')
 
 x = dataset.iloc[:, [3, 4]].values
 dataset.head()
